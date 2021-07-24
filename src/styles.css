@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap");
+body {
+  background-color: #fae4c1;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.App h1 {
+  color: #323d53;
+}
+
+.App p {
+  color: #323d53;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.inputField {
+  border: 4px solid #323d53;
+  border-radius: 2rem;
+  height: 7vh;
+  width: 50%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.App {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.unoderedList {
+  border: 1px solid #323d53;
+  padding-inline-start: 0;
+  border-radius: 1.5rem;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.list {
+  display: inline;
+  list-style: none;
+  padding: 1rem;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  margin-top: 3rem;
+  padding-top: 0rem;
+  border-top: 3px solid #323d53;
+}
+
+.footer div {
+  color: #323d53;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer a {
+  padding-inline: 2rem;
+  font-size: 35px;
+  color: #323d53;
+  text-decoration: none;
+}
+
+.footer .with-para {
+  padding-inline: 0rem;
+  font-size: 20px;
+  color: #323d53;
+  text-decoration: none;
+}
